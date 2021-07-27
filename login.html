@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <link rel="stylesheet" href="login.css">
+  </head>
+  <body>
+    <header id="header" class="header">
+    <form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <a href="index.html"><img src="./images/banner.png" alt="Avatar" class="avatar"></a>
+  </div>
+
+  <div class="container">
+    <label for="uname" class="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw" class="pwd"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label class="rem">
+      <input type="checkbox" checked="checked" name="remember" value="yes"> Remember me
+    </label>
+
+    <div class="login_div">
+      <button type="submit" class="login">Login</button>
+    </div>
+
+  <div class="foot">
+    <button type="button" class="cancelbtn"><a href="index.html" class="cancel">Cancel</a></button>
+    <span class="psw"><a href="#">Forgot password?</a></span>
+  </div>
+
+  </div>
+
+</form>
+  </body>
+</html>
